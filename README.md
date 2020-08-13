@@ -21,15 +21,14 @@ A simplest Processing sketch would need a minimal of two functions:
 
 
 <dl>
-   <dt>[Stack of transformation matrix:](https://processing.org/reference/pushMatrix_.html)</dt>  
+   <dt><a href="https://processing.org/reference/pushMatrix_.html">Stack of transformation matrix:</a></dt>  
   <dd> The pushMatrix() function saves the current coordinate system to the stack and popMatrix() restores the prior coordinate system. These Stack operations pushMatrix() and popMatrix() are useful in reducing the explicit arithmetic operations.
   </dd> 
-  <dt>[Understanding Preload():](https://p5js.org/reference/#/p5/preload)</dt>
+   <dt><a href="https://p5js.org/reference/#/p5/preload">Understanding Preload():</a></dt>
   <dd>The preload() function is used to handle asynchronous loading of external files in a blocking way, when defind the setup() function will have to wait till completion of preload() inorder to ensure proper execution. In this project preload() is used to load the images and and ensure proper initialization of instances.
   </dd>
-   <dt>[Use of SpriteSheet](https://gamedevelopment.tutsplus.com/tutorials/an-introduction-to-spritesheet-animation--gamedev-13099)</dt>  
-  <dd>A sprite is a single graphic image that is incorporated to show a part of the scene. Sprites are a popular way to create large, complex scenes as you can manipulate each sprite separately from the rest of the scene.</dd> 
- 
- 
+   <dt><a href="https://gamedevelopment.tutsplus.com/tutorials/an-introduction-to-spritesheet-animation--gamedev-13099">Use of SpriteSheet</a></dt>  
+  <dd>A sprite is a single graphic image that is incorporated to show a part of the scene. Sprites are a popular way to create large, complex scenes as you can manipulate each sprite separately from the rest of the scene. The animation of rotating rocket is implemented using spritesheets. 
+   </dd> 
 </dl>
 
